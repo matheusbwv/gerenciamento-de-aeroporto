@@ -1,0 +1,19 @@
+{
+  "name": "bun-mini-project",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "dev": "bun run --watch src/server.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "5.9.1",
+    "elysia": "^0.8.16",
+    "prisma": "^5.9.1"
+  }
+}
